@@ -21,7 +21,7 @@ try:
     lenght = int(sys.argv[2])
     total_pid = int(sys.argv[3])
 except:
-    print('Modo de uso: python3 PID_enum.py <"url"> <min_lenght> <total_pid>')
+    print('Use mode: python3 PID_enum.py <"url"> <min_lenght> <total_pid>')
     print('url = string (e.g. http://backdoor.htb/wp-content/plugins/ebook-download/filedownload.php?ebookdownloadurl=) \nmin_lenght = int (e.g. 50) \ntotal_pid = int (e.g. 5000)')
     sys.exit(1)
 
