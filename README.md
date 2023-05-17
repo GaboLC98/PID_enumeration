@@ -17,5 +17,5 @@ This script is a method to enumerate PID in a linux machine through LFI vulnerab
 
 *min_lenght = int (e.g. 50)*
 
-*total_pid = int (e.g. 5000)*
+*number_of_PID_to_bruteforce = int (e.g. 5000)*
 
